@@ -1,0 +1,25 @@
+.menu-container{
+    margin:2rem;
+    display: flex;
+    
+}
+a{
+    text-decoration:none;
+    &:focus,&:visited,&:hover{
+        color:black;
+    }
+}
+.logo-container{
+    font-size: 1.5rem;
+}
+
+ul {
+list-style-type: none;
+margin-left: auto;
+}
+
+
+li{
+    display: inline-block;
+    margin: 0 1rem;
+}
